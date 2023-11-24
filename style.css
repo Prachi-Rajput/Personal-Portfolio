@@ -155,50 +155,9 @@ nav ul li a:hover::after{
     display:block;
 }
 
-/* ---------------------------------services------------------------ */
-
-#services{
-    padding: 30px 0;
-}
-.services-list{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    grid-gap: 40px;
-    margin-top: 50px;
-}
-
-.services-list div{
-    background: #262626;
-    padding:40px;
-    font-size: 13px;
-    font-weight: 300;
-    border-radius:10px ;
-    transition: background 0.5s, transform 0.5s;
-}
-.services-list div i{
-    font-size: 50px;
-    margin-bottom: 30px;
-}
-.services-list div h2{
-    font-size: 30px;
-    font-weight: 500;
-    margin-bottom: 15px;
-}
-.services-list div a{
-    text-decoration: none;
-    color:white;
-    font-size: 12px;
-    margin-top: 20px;
-    display: inline-block;
-}
-.services-list div:hover{
-    background: #ff004f;
-    transform:translate(-10px);
-}
-
 /* ---------------------------my projects ---------------------------*/
 #projects{
-    padding: 50px 50px;
+    padding: 50px 0;
 }
 
 .work-list{
@@ -280,14 +239,14 @@ nav ul li a:hover::after{
 /* ---------------------------------my technical skils---------------------------------------------- */
 
 #techskill {
-    padding: 50px 50px;
-    margin:50px;
+    padding: 50px 0;
+    
   }
   .tech-list {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
     grid-gap: 10px;
-    margin-top: 50px;
+    margin-top: 70px;
     color: #fff;
   }
   .tech {
@@ -378,6 +337,10 @@ form .btn2{
     font-weight: 300;
     margin-top: 20px;
     color: #fff;
+}
+.copyright a{
+    color: #fff;
+    text-decoration: none;
 }
 /*---------------------- css for small screens-------------------- */
 
